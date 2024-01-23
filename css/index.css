@@ -1,0 +1,345 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Mooli', sans-serif;
+}
+/* begin nav */
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.nav-balk{
+    height: 100px;
+    width: 100%;
+    border-width: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.balk{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.blok-balk{
+    height: 100px;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: space-between;
+}
+
+.blok{
+    height: 100px;
+    width: 500px;
+    display: flex;
+    padding-right: 135px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tekst{
+    font-weight: medium;
+    font-size: 15px;
+}
+
+/* begin over mij */
+.blok-groot{
+    height: 350px;
+    width: 95%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f4f6;
+}
+
+.blok-klein{
+    height: 355px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+
+.foto{
+    height: 350px;
+    border-radius: 20px;
+}
+
+.blok3{
+    height: 100px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #fffffe;
+}
+
+.blok4{
+    height: 70px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 60px;
+    border-radius: 20px;
+    margin: 5px;
+    background-color: #fffffe;
+    
+}
+
+.foto-nijmegen{
+    height: 100%;
+    border-radius: 20px;
+}
+
+/* begin vrije tijd */
+.blok-groot2{
+    height: 350px;
+    width: 95%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.rij3{
+    height: 400px;
+    width: 400px;
+    padding-left: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blok1{
+    height: 200px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color:  #f2f4f6;;
+}
+
+.foto2{
+    width: 280px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.foto3{
+    width: 280px;
+    margin: 5px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* begin projecten */
+.blok-groot3{
+    height: 300px;
+    width: 95%;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    background-color:  #f2f4f6;
+}
+
+.box7{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-width: 2px;
+}
+
+.blok7{
+    height: 150px;
+    width: 250px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fffffe;
+    justify-content: space-around;
+}
+
+/* begin contact */
+.blok-groot6{
+    height: 350px;
+    width: 95%;
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    border-width: 2px;
+}
+
+.col{
+    height: 345px;
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color:  #f2f4f6;
+    border-radius: 20px;
+}
+
+.col2{
+    height: 150px;
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color:  #f2f4f6;
+}
+
+.blok-mid3{
+    height: 400px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* einde */
+
+.tekst2{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1180px)
+{
+
+/* nav */
+.nav-balk{
+    height: 50px;
+}
+
+.blok{
+    height: 130px;
+}
+
+.balk{
+    height: 150px;
+    padding-top: 30px;
+}
+
+/* over mij */
+.blok-groot{
+    height: 250px;
+}
+
+.foto{
+    height: 250px;
+}
+
+.foto-nijmegen{
+    height: 250px;
+    padding-left: 10px;
+}
+
+.blok3{
+    width: 60%;
+    height: 10px;
+}
+
+.blok4{
+    width: 60%;
+    height: 10px;
+}
+
+.blok-klein{
+    height: 300px;
+    justify-content: center;
+}
+
+/* vrije tijd */
+.blok-groot2{
+    height: 250px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rij3{
+    height: 250px;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.blok1{
+   width: 650px;
+   height: 200px;
+   background-color: red;
+
+}
+
+.foto2{
+    width: 150px;
+}
+
+.foto3{
+    width: 150px;
+}
+
+/* projecten */ 
+.box7{
+    width: 250px;
+    justify-content: center;
+}
+
+.blok7{
+    width: 200px;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+}
+
+/* iPad Air 820 × 1180 */
+/* iPhone 14 Pro Max 430 × 932 */
