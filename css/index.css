@@ -48,7 +48,7 @@ html{
     height: 100px;
     width: 500px;
     display: flex;
-    padding-right: 135px;
+    /* padding-right: 135px; */
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -131,12 +131,12 @@ html{
 
 .rij3{
     height: 400px;
-    width: 400px;
+    width: 600px;
     padding-left: 10px;
     align-items: center;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .blok1{
@@ -149,7 +149,7 @@ html{
     align-items: center;
     margin: 15px;
     border-radius: 20px;
-    background-color:  #f2f4f6;;
+    background-color:  #fffffe;;
 }
 
 .foto2{
@@ -159,10 +159,9 @@ html{
 }
 
 .foto3{
+    height: 170px;
     width: 280px;
-    margin: 5px;
     border-radius: 20px;
-    margin: 10px;
 }
 
 /* begin projecten */
@@ -176,6 +175,38 @@ html{
     justify-content: center;
     border-width: 2px;
     background-color:  #f2f4f6;
+}
+
+.box{
+    height: 350px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color:  #f2f4f6;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.box2{
+    height: 350px;
+    width: 50%;
+    background-color:  #f2f4f6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rij{
+    height: 300px;
+    width: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .box7{
@@ -209,6 +240,15 @@ html{
     align-items: center;
     justify-content: flex-start;
     border-width: 2px;
+}
+
+.box3{
+    height: 400px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .col{
@@ -253,12 +293,14 @@ html{
     font-size: 20px;
 }
 
+
+/* iPad Air 820 × 1180 */
 @media only screen and (max-width: 1180px)
 {
 
 /* nav */
 .nav-balk{
-    height: 50px;
+    height: 40px;
 }
 
 .blok{
@@ -312,6 +354,14 @@ html{
     padding: 20px;
 }
 
+.box2{
+    height: 200px;
+}
+
+.box{
+    height: 200px;
+}
+
 .rij3{
     width: 100%;
     flex-direction: row;
@@ -319,20 +369,21 @@ html{
 }
 
 .blok1{
-    width: 200px;
+    height: 100px;
+    padding: 25px;
 }
 
 .foto2{
-   height: 200px;
+  width: 250px;
 }
 
 .foto3{
-    height: 200px;
+   height: 150px;
 }
 
 /* projecten */ 
 .blok-groot3{
-    height: 200px;
+    height: 100px;
 }
 
 .box7{
@@ -348,22 +399,124 @@ html{
 
 /* contact */
 .blok-groot6{
-    height: 200px;
+    height: 350px;
+}
+
+.box3{
+    height: 350px;
+    flex-direction: row;   
+    justify-content: center;
+    align-items: space-around;
 }
 
 .blok-mid3{
-    background-color: red;
     height: 300px;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
 }
 
 .col{
-    height: 150px;
+    height: 200px;
+    width: 200px;
 }
 
 .col2{
-    height: 100px;
+    height: 90px;
+    width: 200px;
+    padding: 10px;
 }
 }
 
-/* iPad Air 820 × 1180 */
 /* iPhone 14 Pro Max 430 × 932 */
+
+ @media only screen and (max-width:932px){
+
+.nav-balk{
+    width: 430px;
+    background-color: chartreuse;
+}
+    
+.blok{
+    height: 100px;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.balk{
+    height: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.tekst2{
+    font-size: 10px;
+}
+
+/* over mij */
+.blok-groot{
+    height: 250px;
+    width: 430px;
+    background-color: chocolate;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.blok-klein{
+    height: 250px;
+    width: 400px;
+}
+
+.foto{
+    height: 100px;
+}
+
+.foto-nijmegen{
+    height: 100px;
+}
+
+.blok3{
+    height: 20px;
+    flex-direction: row;
+}
+
+.blok4{
+    height: 20px;
+}
+
+/* vrije tijd */
+.blok-groot2{
+    background-color: red;
+    padding: 0px;
+    width: 430px;
+}
+
+.rij3{
+    flex-direction: column;
+}
+
+.blok1{
+    height: 80px;
+    width: 150px;
+}
+
+/* projecten */
+.blok-groot3{
+    width: 430px;
+    background-color: blue;
+    padding: 0px;
+}
+
+
+
+
+
+
+/* conatct */
+.blok-groot6{
+    width: 430px;
+    background-color: aqua;
+    padding: 0px;
+}
+}
