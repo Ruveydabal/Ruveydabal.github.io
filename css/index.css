@@ -131,7 +131,7 @@ html{
 
 .rij3{
     height: 400px;
-    width: 600px;
+    width: 100%;
     padding-left: 10px;
     align-items: center;
     display: flex;
@@ -140,8 +140,21 @@ html{
 }
 
 .blok1{
-    height: 200px;
-    width: 280px;
+    height: 300px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    margin: 15px;
+    border-radius: 20px;
+    background-color:  #fffffe;;
+}
+
+.blok2{
+    height: 300px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,14 +166,13 @@ html{
 }
 
 .foto2{
-    width: 280px;
+    width: 230px;
     margin: 20px;
     border-radius: 20px;
 }
 
 .foto3{
-    height: 170px;
-    width: 280px;
+    width: 400px;
     border-radius: 20px;
 }
 
@@ -179,11 +191,11 @@ html{
 
 .box{
     height: 350px;
-    width: 50%;
+    width: 65%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     background-color:  #f2f4f6;
     border-radius: 20px;
     margin-left: 25px;
@@ -191,8 +203,8 @@ html{
 
 .box2{
     height: 350px;
-    width: 50%;
-    background-color:  #f2f4f6;
+    width: 35%;
+    /* background-color:  #f2f4f6; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -201,12 +213,12 @@ html{
 }
 
 .rij{
-    height: 300px;
+    height: 400px;
     width: 600px;
     align-items: center;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .box7{
@@ -263,6 +275,31 @@ html{
     padding: 10px;
     background-color:  #f2f4f6;
     border-radius: 20px;
+}
+
+.col3{
+    height: 345px;
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color:  #f2f4f6;
+    border-radius: 20px;
+}
+
+.blok5{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #fffffe;
 }
 
 .col2{
@@ -349,9 +386,14 @@ html{
 
 /* vrije tijd */
 .blok-groot2{
-    height: 200px;
+    height: 400px;
     justify-content: space-around;
     padding: 20px;
+}
+
+.blok2{
+    height: 280px;
+    width: 400px;
 }
 
 .box2{
@@ -359,17 +401,18 @@ html{
 }
 
 .box{
-    height: 200px;
+    height: 350px;
 }
 
 .rij3{
     width: 100%;
+    /* height: 500px; */
     flex-direction: row;
     padding: 0px;
 }
 
 .blok1{
-    height: 100px;
+    height: 250px;
     padding: 25px;
 }
 
@@ -378,7 +421,7 @@ html{
 }
 
 .foto3{
-   height: 150px;
+   height: 250px;
 }
 
 /* projecten */ 
@@ -399,7 +442,8 @@ html{
 
 /* contact */
 .blok-groot6{
-    height: 350px;
+    height: 500px;
+    align-items: flex-start;
 }
 
 .box3{
@@ -410,10 +454,11 @@ html{
 }
 
 .blok-mid3{
-    height: 300px;
-    width: 250px;
+    height: 500px;
+    width: 100%;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-bottom: 40px;
 }
 
@@ -426,6 +471,11 @@ html{
     height: 90px;
     width: 200px;
     padding: 10px;
+}
+
+.col3{
+    height: 300px;
+    margin-left: 25px;
 }
 }
 
@@ -440,12 +490,13 @@ html{
     
 .blok{
     height: 100px;
-    width: 200px;
+    width: 300px;
     justify-content: space-around;
 }
 
 .balk{
     height: 10px;
+    width: 175px;
     align-items: center;
     margin-bottom: 25px;
 }
@@ -456,7 +507,7 @@ html{
 
 /* over mij */
 .blok-groot{
-    height: 250px;
+    height: 400px;
     width: 430px;
     background-color: chocolate;
     flex-direction: column;
@@ -500,6 +551,7 @@ html{
     height: 80px;
     width: 150px;
 }
+
 
 /* projecten */
 .blok-groot3{
